@@ -6,6 +6,23 @@
   </head>
   <body>
     <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <p><h4> <%= subtitle %></h4></p>
+    <table BORDER="3" CELLSPACING="5" WIDTH="150">
+   <tr>
+   	<td>Reclamo</td> <td>Observacion</td><td>Fecha reclamo</td>
+   </tr>
+    <tr>
+
+    	<td><p><h4> <%= reclamo.tipoReclamo %></h4></p>	</td>
+    	<td><p><h4> <%= reclamo.observacion %></h4></p>	</td>
+    	<td><p><h4> <%= reclamo.fechaREclamo %></h4></p>	</td>
+    	
+    </tr>
+    
+    
+    </table>
+    
+    
   </body>
 </html>
+
